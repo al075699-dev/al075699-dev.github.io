@@ -1,0 +1,25 @@
+cual es la diferencia entre let y const en js?
+
+cual es la sintaxis para crear objetos y arreglos en js?
+
+como tomo valores de los inputs del html y los llevo a js?
+
+que es una plantilla de texto y de que otra forma lo puedo escribir?
+
+como se reproduce un sonido en js?
+
+en que casos me sirve prevent.evt?
+
+donde puedo ver todos los modificadores de css?
+
+como elimino un objeto?
+
+que es requestAnimationFrame?
+
+como envio a un usuario a un video de youtube desde js?
+
+como ajusto una imagen en background-size desde css?
+
+cual es la diferencia entre justify-content y align-items?
+
+como creo una pagina web con github?

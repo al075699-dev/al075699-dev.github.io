@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #001f60 0%, #0033a0 50%, #001138 100%);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.radio-imagenes {
+  display: flex;
+  gap: 16px;
+}
+
+/* Para ocultar el radio original */
+.radio-imagenes input[type="radio"] {
+  display: none;
+}
+
+
+.radio-imagenes label {
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.radio-imagenes label img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Efecto al pasar el cursor */
+.radio-imagenes label:hover {
+  transform: scale(1.05);
+  background-color: #e0e0e0;
+}
+
+/* Para cuando esta seleccionado */
+.radio-imagenes input[type="radio"]:checked + label {
+  border-color: #4CAF50; 
+  background-color: #e8f5e9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pantalla {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    gap: 40px;
+}
+
+.btn-jugar{
+    
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(180deg, #ffc72c 0%, #ffa800 100%);
+    color: #001f60;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 4px solid #cc8700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin-top: 5px;
+    
+}
+
+
+
+.moneda {
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+
+    background-image: url('papa.png');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center;
+
+   
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 15px 0;
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-style: italic;
+    color: #ffc72c;
+    text-shadow: 3px 3px 0px #e60012, 6px 6px 0px #000;
+    letter-spacing: 1px;
+}
+
+#game-area {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: white;
+    border: 6px solid #ffc72c;
+    border-radius: 20px;
+    
+    overflow: hidden;
+}
+
+.character {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#beyonce {
+    background-image: url('chips.gif');
+    background-size: contain;
+}
+
+#player {
+    background-image: url('ruffles2.png');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+.puntaje {
+    width: 100%;
+    background: #0033a0;
+    color: #ffc72c;
+    border: 3px solid #ffc72c;
+    border-radius: 14px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 51, 160, 0.25);
+}
+
+.config {
+    max-width: 250px;
+    /* min-width: 100px; */
+    background: #ffffff;
+    color: #0033a0;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.range-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.range-group input[type="range"] {
+  flex: 1;
+  accent-color: #e60012;
+  cursor: pointer;
+}
+
+
+
