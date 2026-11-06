@@ -1,0 +1,4 @@
+Flecha arriba, dos veces
+Flecha abajo, dos veces
+Flecha izquierda, derecha, izquierda, derecha
+La tecla B y luego la tecla A
